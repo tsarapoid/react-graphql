@@ -14,4 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-[check deploy tsarapoid.github.io/react-graphql](https://tsarapoid.github.io/react-graphql)
+### `deploy on gh-pages`
+
+[check deploy react-graphql](https://tsarapoid.github.io/react-graphql)
