@@ -12,7 +12,6 @@
 .main-content {
   width: 100%;
   height: 100%;
-
   background: url(../../img/Rectangle.jpg);
   background-size: cover;
 }
@@ -20,15 +19,14 @@
 .main-title {
   padding-top: 160px;
   padding-bottom: 95px;
-
+  color: #FFF;
   font-size: 40px;
   font-weight: 600;
-  color: #ffffff;
   text-align: center;
 }
 
 .main-nav {
-  color: #fff;
+  color: #FFF;
   text-align: center;
 }
 
@@ -38,36 +36,31 @@
 
 .main-link {
   padding: 25px 50px;
+  border: 3px solid #298BDC;
+  border-radius: 50px;
   font-size: 20px;
   font-weight: 700;
-
-  border: 3px solid #298bdc;
-  border-radius: 50px;
-
   transition: background 0.5s linear;
 }
 
 .main-search-link {
   padding: 30px 60px;
-
+  border: 3px solid #298BDC;
+  border-radius: 50px;
   font-size: 28px;
   font-weight: 500;
-
-  border: 3px solid #298bdc;
-  border-radius: 50px;
-
   transition: background 0.5s linear;
 }
 
 .main-link:hover,
 .main-search-link:hover {
-  background: #fff;
+  background: #FFF;
+  box-shadow: 0 5px 10px 2px rgb(34 60 80 / 30%) inset;
   color: #333;
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.3) inset;
 }
 
-/*SEARCH-WORK
-===================*/
+/* SEARCH-WORK
+=================== */
 .search-work {
   width: 100%;
   height: 74px;
@@ -75,37 +68,29 @@
 
 .search-work-content {
   display: flex;
-  justify-content: space-around;
-  padding: 23px 0;
   width: 100%;
   height: 100%;
-
-  background-color: #195f98;
+  justify-content: space-around;
+  padding: 23px 0;
+  background-color: #195F98;
 }
 
 .category {
   width: 268px;
   height: 28px;
-
-  text-align: center;
-
   appearance: none;
-  cursor: pointer;
-
   border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .company {
   width: 268px;
   height: 28px;
-
-  text-align: center;
-
   appearance: none;
-
   border-radius: 50px;
-
   font-family: Montserrat;
+  text-align: center;
 }
 
 .company:focus,
@@ -117,8 +102,7 @@
 }
 
 .category option {
-  background-color: #eee;
-
+  background-color: #EEE;
   font-size: 17px;
 }
 
@@ -127,23 +111,20 @@
 .search {
   width: 183px;
   height: 28px;
-
-  text-align: center;
-
-  appearance: none;
-  cursor: pointer;
-
-  border-radius: 50px;
   border: none;
+  appearance: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
 }
 
-/*AUTH
-==========*/
+/* AUTH
+========== */
 
 .page-auth {
   display: flex;
-  flex-direction: column;
   width: 100%;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -152,16 +133,13 @@
   height: 400px;
   margin: 0 auto;
   margin-top: 50px;
-
-  background-color: #fff;
-
-  box-shadow: 0 0 20px rgba(34, 60, 80, 0.3);
-
+  background-color: #FFF;
   border-radius: 90px;
+  box-shadow: 0 0 20px rgb(34 60 80 / 30%);
 }
 
 .footer-auth {
-  background: #195f98;
   height: 147px;
+  background: #195F98;
   color: white;
 }

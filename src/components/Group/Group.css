@@ -1,5 +1,5 @@
-/*GROUP
-================*/
+/* GROUP
+================ */
 
 .group {
   width: 100%;
@@ -16,17 +16,15 @@
   position: relative;
   width: 353px;
   height: 186px;
+  border: 2px solid #DBD8D8;
+  margin: 0 0 25px;
   margin-right: 189px;
-
-  margin: 0 0 25px 0;
-
   border-radius: 10px;
-  border: 2px solid #dbd8d8;
-
   transition: all 0.4s linear;
 }
+
 .card__item:hover {
-  box-shadow: 0 0 20px rgba(128, 128, 128, 0.425);
+  box-shadow: 0 0 20px rgb(128 128 128 / 42.5%);
   transform: scale(1.1);
 }
 
@@ -37,12 +35,13 @@
 }
 
 .card__about {
-  padding-left: 40px;
   padding-top: 20px;
+  padding-left: 40px;
 }
+
 .card__text {
-  font-size: 20px;
   padding-bottom: 10px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -51,50 +50,42 @@
 }
 
 .card-button {
-  padding: 8px 45px;
-
   position: absolute;
   top: 75%;
   left: 20%;
-
-  background-color: #298bdc;
-
-  color: #fff;
-  font-size: 14px;
-
+  padding: 8px 45px;
   border: none;
+  background-color: #298BDC;
   border-radius: 50px;
-
+  color: #FFF;
+  font-size: 14px;
   transition: transform 0.2s linear;
 }
 
-.card__item:after {
-  display: block;
+.card__item::after {
   position: absolute;
   top: 70px;
   left: 270px;
-  content: "";
+  display: block;
   width: 70px;
   height: 70px;
-
+  background-color: #195F98;
   border-radius: 50%;
-
-  background-color: #195f98;
+  content: "";
 }
 
 .card-button:hover {
-  transform: scale(1.1);
-
   cursor: pointer;
+  transform: scale(1.1);
 }
 
-/*AUTH
-==========*/
+/* AUTH
+========== */
 
 .page-auth {
   display: flex;
-  flex-direction: column;
   width: 100%;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -103,16 +94,13 @@
   height: 400px;
   margin: 0 auto;
   margin-top: 50px;
-
-  background-color: #fff;
-
-  box-shadow: 0 0 20px rgba(34, 60, 80, 0.3);
-
+  background-color: #FFF;
   border-radius: 90px;
+  box-shadow: 0 0 20px rgb(34 60 80 / 30%);
 }
 
 .footer-auth {
-  background: #195f98;
   height: 147px;
+  background: #195F98;
   color: white;
 }
