@@ -16,4 +16,5 @@ You may also see any lint errors in the console.
 
 ### `deploy on gh-pages`
 
+Do not try at home!
 [check deploy react-graphql](https://tsarapoid.github.io/react-graphql)
