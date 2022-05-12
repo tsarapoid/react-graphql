@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-graphql/static/css/main.11662f65.css",
+    "main.js": "/react-graphql/static/js/main.c8c3a8d6.js",
+    "static/media/Rectangle.jpg": "/react-graphql/static/media/Rectangle.b1cb4a178e0eb1e7ab88.jpg",
+    "static/media/Logo2.svg": "/react-graphql/static/media/Logo2.06e5966fa50818cc7bd8269ce4f983fe.svg",
+    "index.html": "/react-graphql/index.html",
+    "main.11662f65.css.map": "/react-graphql/static/css/main.11662f65.css.map",
+    "main.c8c3a8d6.js.map": "/react-graphql/static/js/main.c8c3a8d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11662f65.css",
+    "static/js/main.c8c3a8d6.js"
+  ]
+}
